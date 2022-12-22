@@ -1,0 +1,88 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+.background-img{
+    margin-top: 5%;
+    /* background-image: url('tedx12.jpeg'); */
+    opacity: 0.95;
+    width: 1688px;
+    height: 913px;
+    position: relative;
+    color: white;
+    
+    font-family: "Inter", sans-serif;
+   
+  }
+.top-left{
+    position: absolute;
+    top: 10px;
+    left: 25px;font-size: 65px;
+}
+.welcome-text{
+    font-size: 25px;
+    position: absolute;
+    top: 120px;
+    left: 25px;
+}
+  .venue-location{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 3% 5% 3%;
+  }
+
+  .venue-img{
+    height: 90%;
+    width: 85%;
+    margin: 2% 0% 2% 2%;
+    border-radius: 5px;
+    border: 5px solid rgb(222, 219, 219);
+  }
+
+  .venue-info{
+    margin: 2% 2% 2% 2%;
+   font-family: "Inter", sans-serif;
+   width: 100%;
+   height: 100%;
+  }
+
+  .heading{
+    color: #FF2B06;
+    font-size: 35px;
+    border-bottom: 5px solid  #FF2B06;
+   /* width: 16.5%; */
+   font-family: "Inter", sans-serif;
+    
+  }
+
+  .insti-name{
+    font-size: 25px;
+    margin-bottom: 2%;
+    margin-top: 3%;
+
+  }
+  .insti-info{
+    font-size: 20px;
+
+  }
+
+  .guest-house-location{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 3% 5% 3%;
+  }
+
+  .guest-house-info{
+    font-family: "Inter", sans-serif;
+    width: 50%;
+    margin: 5% 5% 5% 5%;
+    font-size: 20px;
+  }
+  .guest-house-info-content{
+    margin: 5% 0 0 0;
+  }
+  .guest-house-map-div{
+    /* width: 50%; */
+    margin: 5% 5% 5% 5%;
+    height: 60%;
+    border: 5px solid rgb(243, 240, 240);
+  }
